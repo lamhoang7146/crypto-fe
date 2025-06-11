@@ -6,7 +6,8 @@ services:
     ports:
       - "3000:3000"
     environment:
-      - PORT=3000
+      - PORT=${PORT}
+    command: "yarn dev"
     develop:
       watch:
         - path: ./src
@@ -20,3 +21,4 @@ services:
         - path: .
           action: sync
           target: /app
+          

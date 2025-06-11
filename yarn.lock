@@ -1566,7 +1566,7 @@ fresh@^2.0.0:
     class-variance-authority "^0.7.1"
     clsx "^2.1.1"
     dotenv "^16.5.0"
-    frontend "file:C:/Users/azten/AppData/Local/Yarn/Cache/v6/npm-frontend-0.0.0-e8be491e-c603-4770-a008-d324d82a3780-1747404319009/node_modules/frontend"
+    frontend "file:C:/Users/azten/AppData/Local/Yarn/Cache/v6/npm-frontend-0.0.0-78ad3543-64f6-4482-9932-c214459e8bde-1747404965852/node_modules/frontend"
     lucide-react "^0.509.0"
     react "^19.1.0"
     react-dom "^19.1.0"
@@ -2197,7 +2197,14 @@ react-refresh@^0.17.0:
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.17.0.tgz#b7e579c3657f23d04eccbe4ad2e58a8ed51e7e53"
   integrity sha512-z6F7K9bV85EfseRCp2bzrpyQ0Gkw1uLoCel9XBVWPg/TjRj94SkJzUTGfOa4bs7iJvBWtQG0Wq7wnI0syw3EBQ==
 
-react-router@^7.6.0:
+react-router-dom@^7.6.0:
+  version "7.6.0"
+  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-7.6.0.tgz#eadcede43856dc714fa3572a946fd7502775c017"
+  integrity sha512-DYgm6RDEuKdopSyGOWZGtDfSm7Aofb8CCzgkliTjtu/eDuB0gcsv6qdFhhi8HdtmA+KHkt5MfZ5K2PdzjugYsA==
+  dependencies:
+    react-router "7.6.0"
+
+react-router@7.6.0, react-router@^7.6.0:
   version "7.6.0"
   resolved "https://registry.yarnpkg.com/react-router/-/react-router-7.6.0.tgz#e2d0872d7bea8df79465a8bba9a20c87c32ce995"
   integrity sha512-GGufuHIVCJDbnIAXP3P9Sxzq3UUsddG3rrI3ut1q6m0FI6vxVBF3JoPQ38+W/blslLH4a5Yutp8drkEpXoddGQ==
