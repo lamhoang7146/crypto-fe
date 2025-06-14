@@ -1,7 +1,14 @@
-import { createBrowserRouter } from 'react-router-dom';
+import { PrivateLayout } from "@/components/templates/";
+import type { RouteObject } from "react-router-dom";
 
-export default createBrowserRouter([
+const routes: RouteObject[] = [
 	{
-		
+		element: <PrivateLayout />,
+		children:[
+			
+		]
 	}
-]);
+];
+
+export default routes;
+

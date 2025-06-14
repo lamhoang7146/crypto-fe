@@ -1,19 +1,15 @@
 import { createBrowserRouter, Outlet } from 'react-router-dom';
-// import { PublicLayout } from '@/components/templates/PublicLayout/index';
+import { privateRouter, publicRouter } from '@/routes/index';
 
 const router = createBrowserRouter([
 	{
 		path: '/',
-		element: <Outlet /> ,
-		
-		// children: [
-		// 	{
-		// 		path: '/login'
-		// 	},
-		// 	{
-		// 		path: '/register'
-		// 	}
-		// ]
+		element: <Outlet />,
+		errorElement: <div>Not Found</div>,
+		children: [
+			...publicRouter,
+			...privateRouter
+		]
 	}
 ]);
 
