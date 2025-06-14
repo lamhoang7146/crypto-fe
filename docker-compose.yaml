@@ -4,19 +4,17 @@ services:
       context: .
       dockerfile: Dockerfile 
     ports:
-      - "3000:3000"
-    environment:
-      - PORT=${PORT}
+      - "${PORT}:${PORT}"
+    env_file:
+      - .env
     command: "yarn dev"
     develop:
       watch:
-        - path: ./src
-          action: rebuild
+        # - path: ./src
+        #   action: rebuild
         - path: ./public
           action: rebuild
         - path: ./package.json
-          action: rebuild
-        - path: ./package-lock.json
           action: rebuild
         - path: .
           action: sync
