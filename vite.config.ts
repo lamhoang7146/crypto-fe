@@ -9,7 +9,7 @@ dotenv.config();
 export default defineConfig({
   plugins: [
     react(),
-    tailwindcss()
+    tailwindcss(),
   ],
   resolve: {
     alias: {
