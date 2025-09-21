@@ -1,4 +1,4 @@
-import publicRouter from './public';
-import privateRouter from './private';
+import publicRouters from "./public";
+import privateRouters from "./private";
 
-export { publicRouter, privateRouter };
+export { publicRouters, privateRouters };
