@@ -25,5 +25,5 @@ jobs:
       - name: Lint the application
         run: yarn lint
 
-      - name: Develop the application
-        run: yarn dev
+      - name: Build the application
+        run: yarn build
