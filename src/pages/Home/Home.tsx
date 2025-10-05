@@ -1,7 +1,11 @@
-export default function Home() {
-	return (
-		<div>
-			<h1>This is a home page</h1>
-		</div>
-	)
-}
+import Button from "@components/button";
+
+const Home = () => {
+  return (
+    <div>
+      <Button>Hello</Button>
+    </div>
+  );
+};
+
+export default Home;
